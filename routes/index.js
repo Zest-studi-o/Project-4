@@ -1,10 +1,18 @@
 const { requireAuth, setAuthToken, unsetAuthToken } = require("../controllers/auth");
 const { User, Schedule } = require("../db/models");
+require('dotenv').config()
+
+const express = require('express')
+const app = express()
+const jwt = require('jsonwebtoken')
+
+app.use(express.json())
 
 module.exports = (app) => {
   app.get("/", requireAuth, (req, res) => {
     // todo
-  });
+      res.json(posts.filter(post => post.username === req.user.name))
+    });
 
   app.get("/login", (req, res) => {
     res.render("login");
@@ -14,8 +22,20 @@ module.exports = (app) => {
     const { email, password } = req.body;
 
     // if the user auths, let them in
-
-    // if not, give them error
+    function requireAuth(req, res, next) {
+      const authHeader = req.headers['authorization']
+      const token = authHeader && authHeader.split(' ')[1]
+      if (token == null) return res.sendStatus(401)
+      
+      // if not, give them error
+      jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
+        console.log(err)
+        if (err) return res.sendStatus(403)
+        req.user = user
+        next()
+      })
+    }
+ 
   });
 
   app.get("/logout", (req, res) => {

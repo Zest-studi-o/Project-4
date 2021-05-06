@@ -7,7 +7,7 @@ const mysql = require("mysql");
 
 const config = require("./db/config");
 const { hbsHelpers } = require("./views/helpers");
-const { getSessionUser } = require("./controllers/auth");//? it was saying routes/auth
+const { getSessionUser } = require("./controllers/auth");
 const routesManager = require("./routes");
 
 const db = mysql.createConnection(config);
