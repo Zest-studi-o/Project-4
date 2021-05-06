@@ -1,0 +1,22 @@
+<div style="margin-top: 30px">
+    <h1 class="text-center mb-5">🌈 </h1>
+
+    <table class="table mb-5">
+        <thead>
+            <tr>
+                <th>Full name</th>
+                <th>Day</th>
+                <th>Start at</th>
+                <th>End at</th>
+            </tr>
+        </thead>
+        {{#each scheduleData}}
+        <tr>
+            <td><a href="/user/{{iduser}}">{{firstname}} {{surname}}</a></td>
+            <td>{{getDay day}}</td>
+            <td>{{truncTime startTime}}</td>
+            <td>{{truncTime endTime}}</td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
