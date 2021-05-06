@@ -59,6 +59,18 @@ module.exports = (app) => {
 
   app.get("/schedule", requireAuth, (req, res) => {
     // todo
+
+    conn.query('SELECT * FROM schedules ORDER BY id desc',function(err,rows)     {
+   
+    
+      if(err) {
+       throw err;
+          res.render('schedule',{data:""});   
+      } else {
+        console.log("Schedules work");
+        res.render('schedule', {data: rows, days:days, title: "Schedules"});      }
+  });
+  
   });
 
   app.post("/schedule", requireAuth, (req, res) => {
