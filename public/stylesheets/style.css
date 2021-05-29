@@ -1,0 +1,224 @@
+/*body {
+  background:whitesmoke;
+}@import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
+
+:root {
+  --ui-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+  fill: rgba(0, 0, 0, 0.54);
+  --ui-shadow-border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
+
+  color: #2a3747;
+}
+
+h1 {
+  font-size: 30px;
+  align-self: start;
+}
+
+a {
+  color: inherit;
+  text-decoration:none;
+  cursor: pointer;
+  user-select: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.View {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: flex-start;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 20px;
+
+  background-size: cover;
+
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.Banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+  background: white;
+  padding: 15px;
+
+  font-family: "Share Tech Mono", monospace;
+
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+}
+
+
+.Message {
+  background: white;
+  padding: 30px;
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+  width: 100%;
+}
+.Message img{
+  width:50%;
+}
+#displayTable {
+    font-size: medium;
+    line-height: 1.5em;
+    text-transform:none;
+    font-weight: 200;
+    width:100%;
+    border: var(--ui-shadow-border);
+  margin-top: 5%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0px 0px 6px 0px #808080b3;
+    border-radius: 10px;
+    width: 100%;
+}
+  
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+  
+.form form input,select{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+}
+  
+.form form label {
+    margin-top: 7px;
+}
+  
+.form button {
+    margin-top: 10px;
+    padding: 4px 10px;
+    font-size: 1rem;
+    background-color: #6c757d;
+    border: 1px solid gray;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+
+
+
+    // public/stylesheets/style.css
+}*/
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);
+}
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#logo {
+  width: 9%;
+  height: 9%;
+  margin: 10px 0px 5px 0px;
+}
+
+.navbar-inverse{
+   background-color:rgb(12, 12, 102);}
+
+   p{
+  margin: 30px 30px 0px 30px;
+   }

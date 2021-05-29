@@ -1,0 +1,43 @@
+classmates: Luciana, Fabriya, Douglas and Renuka submission.
+
+This tutorial was used for exercise 3c, change book for schedules and authors for users
+https://shouts.dev/nodejs-simple-crud-with-expressjs-and-mysql
+
+How to display a table getting data from MSQL
+https://codingstatus.com/how-to-display-data-from-mysql-database-table-in-node-js/
+
+This is the tutorial from Udemy I have sent you the code from
+https://www.udemy.com/course/nodejs-the-complete-guide/
+
+The other course I have from Udemy (woman using bootstrap)
+https://www.udemy.com/course/the-complete-web-development-bootcamp/
+
+Resources for the Udemy course, the woman using bootstrap (like you call her)
+https://www.appbrewery.co/p/web-development-course-resources/
+
+Create a new user using ejs, this is only a chapter, here there are more resources if you see all the chapters
+https://livebook.manning.com/book/get-programming-with-node-js/chapter-19/9
+
+I didn´t undertand this one much, it is using something called okta, I saved it anyway
+https://scotch.io/tutorials/build-and-understand-a-simple-nodejs-website-with-user-authentication
+
+Node js User Authentication using MySQL and Express JS
+https://www.js-tutorials.com/nodejs-tutorial/node-js-user-authentication-using-mysql-express-js/
+
+Adding templates for login, signup and profile
+https://subscription.packtpub.com/book/web_development/9781785888434/1/ch01lvl1sec13/adding-templates-for-login-sign-up-and-profile
+
+An app that is meant to help sketching wireframes, never used it
+https://balsamiq.com/wireframes/?gclid=CjwKCAjw-e2EBhAhEiwAJI5jg8e8Ktxqo_-lmzQO-bJxvB2QGfMiOeIqeYqyOtwoW_W1zjSYY58JYxoCK3YQAvD_BwE
+
+Grids for wireframing
+https://sneakpeekit.com/
+
+How to use EJS in a NODE app
+https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application
+
+EJS templating
+https://www.jenniferbland.com/example-using-ejs-templating-in-node-js-application/
+
+Express.js Login Page Example (my login page beauty)
+https://www.siphor.com/express-js-login-page-example/

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head') %>
+  </head>
+
+  <body>
+    <%- include('./partials/nav') %>  
+
+
+<div class="mt-5">
+
+    <form action="/schedule" method="POST">
+ 
+</form>
+
+<h3 class=" mt-5 mb-4">Your existing schedules</h3>
+
+        <table class="table mb-5">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Start at</th>
+                    <th>End at</th>
+                </tr>
+            </thead>
+            {{#each scheduleData}}
+            <tr>
+                <td>{{getDay day}}</td>
+                <td>{{truncTime startTime}}</td>
+                <td>{{truncTime endTime}}</td>
+            </tr>
+            {{/each}}
+        </table>
+</div>
+
+</html>

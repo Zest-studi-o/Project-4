@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head') %>
+  </head>
+
+  <body>
+    <%- include('../partials/nav') %>  
+    
+    <div style="margin-top: 30px">
+    <h1 class="text-center mb-5">🌈 </h1>
+
+    <table class="table mb-5">
+        <thead>
+            <tr>
+                <th>Full name</th>
+                <th>Day</th>
+                <th>Start at</th>
+                <th>End at</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (var i =0; i < schedules.length;  i++ ) { %>
+                <tr class="text-center">
+                  <td class="w-25"> <a class="text-dark font-weight-bold" href="../user/<%= schedules[i].id %>"><%= schedules[i].email %></a></td>
+                  <td class="w-25"><%= locals.dateFormat(schedules[i].s_date," dd/mm/yyyy") %> %></td>
+                  <td class="w-25"><%= schedules[i].start_at%></td>
+                  <td class="w-25"><%= schedules[i].end_at %></td>
+                  
+                </tr>
+            <% } %>
+
+        </tbody>
+    </table>
+</div>
+</html>
